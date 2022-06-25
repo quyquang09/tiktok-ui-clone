@@ -1,0 +1,21 @@
+.menu-list {
+    width: 224px;
+    .menu-item {
+        margin-left: 0;
+        display: block;
+    }
+}
+.menu-popper {
+    padding-bottom: 8px;
+}
+//menu items
+.menu-item {
+    width: 100%;
+    text-align: left;
+    border-radius: 0;
+    padding: 14px 8px;
+    line-height: 1;
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}

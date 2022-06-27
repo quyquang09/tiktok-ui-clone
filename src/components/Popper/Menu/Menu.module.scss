@@ -10,6 +10,9 @@
     margin-top: 0px;
     margin-right: -10px;
 }
+.menu-body {
+    overflow-y: auto;
+}
 //menu items
 .menu-item {
     width: 100%;
@@ -19,11 +22,9 @@
     line-height: 1;
     font-weight: 600;
     color: var(--text-color);
-
     &.separate {
         border-top: 1px solid rgba(22, 24, 35, 0.12);
     }
-
     &:hover {
         background-color: rgba(22, 24, 35, 0.03);
     }
@@ -31,15 +32,18 @@
 
 //Header
 .header {
+    flex-shrink: 0;
     position: relative;
     height: 50px;
     cursor: pointer;
 }
+
 .back-btn {
     width: 50px;
     height: 100%;
     cursor: pointer;
 }
+
 .header-title {
     position: absolute;
     top: 50%;
